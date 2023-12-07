@@ -45,7 +45,7 @@ nav {
 
 #home {
   position: relative;
-  background: url(../images/ppdb3.jpg) no-repeat center center fixed;
+  background: url(./images/ppdb3.jpg) no-repeat center center fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
