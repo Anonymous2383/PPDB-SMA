@@ -1,0 +1,100 @@
+@media (max-width: 700px) {
+  #home .container #tombol {
+    margin-top: 30px;
+  }
+  .skillbar .skills {
+    width: 80%;
+  }
+
+  .skillbar .skills-bar .bar .progress-line {
+    width: 100%;
+  }
+  #jurusan span {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 576px) {
+  * {
+    overflow-x: hidden;
+  }
+  #nav {
+    position: fixed;
+    right: 0;
+    left: 0;
+  }
+  #home {
+    padding: 300px 0;
+  }
+  #home img {
+    margin-bottom: 50px;
+  }
+  #home h1 {
+    padding-right: 70px;
+    bottom: 0;
+    left: 0;
+  }
+  #home h5 {
+    padding-right: 70px;
+    bottom: 0;
+    left: 0;
+  }
+  #home img {
+    margin-left: 0;
+  }
+  #kontak {
+    padding-top: 20px;
+    max-width: 100%;
+    padding-bottom: 20px;
+    background-color: #b6bac4;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #contact form input[type="text"],
+  #contact form input[type="email"],
+  #contact form textarea {
+    left: 30px;
+    max-width: 240px;
+  }
+  #contact form label {
+    padding-left: 50px;
+  }
+  #contact form button {
+    margin-left: 125px;
+    position: static;
+  }
+}
+
+@media screen and (max-width: 1257px) {
+  #home h1 {
+    padding-left: 70px;
+    font-size: 1.4rem;
+  }
+  #home h5 {
+    padding-left: 70px;
+    font-size: 1rem;
+  }
+  #about {
+    height: 90vh;
+  }
+
+  * {
+    overflow-x: hidden;
+  }
+  #nav {
+    position: fixed;
+    width: 100%;
+  }
+  #navbarr a {
+    font-size: 13px;
+  }
+  #contact form {
+    padding-top: 10px;
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  #jurusan #nm-jurusan {
+    overflow-y: hidden;
+  }
+}
