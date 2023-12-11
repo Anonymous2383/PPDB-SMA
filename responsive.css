@@ -12,6 +12,13 @@
   #jurusan span {
     overflow-x: hidden;
   }
+  #syarat li {
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  #syarat #kartu {
+    padding: 20px;
+  }
 }
 @media screen and (max-width: 576px) {
   * {
@@ -94,7 +101,34 @@
     max-width: 300px;
     margin: 0 auto;
   }
-  #jurusan #nm-jurusan {
+  #jurusan h3 {
     overflow-y: hidden;
+  }
+  #footer h6 {
+    overflow-y: hidden;
+  }
+  #syarat h2 {
+    overflow-y: hidden;
+  }
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
   }
 }
